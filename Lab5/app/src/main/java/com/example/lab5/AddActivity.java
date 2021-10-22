@@ -77,7 +77,7 @@ public class AddActivity extends AppCompatActivity {
         apps.add(app1);
         boolean result = JSONHelper.exportToJSON(this, apps);
         if (result) {
-            Toast.makeText(this, "Данные сохранены", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Данные были сохранены", Toast.LENGTH_LONG).show();
         } else {
             Toast.makeText(this, "Не удалось сохранить данные", Toast.LENGTH_LONG).show();
         }
