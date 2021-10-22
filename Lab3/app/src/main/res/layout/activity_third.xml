@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-28dp">
+
+        <SeekBar
+            android:id="@+id/seekAppRate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:max="50"
+            android:min="0"
+            android:text=""
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/seekText"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="30dp"
+            android:text=""
+            android:textSize="15dp" />
+
+
+        <Spinner
+            android:id="@+id/appType"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textSize="15dp" />
+
+        <ScrollView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/out"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:text=""
+                android:textSize="15dp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/nextAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:onClick="Save"
+            android:text="Сохранить" />
+
+        <Button
+            android:id="@+id/prevAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-46dp"
+            android:onClick="prevAct"
+            android:text="Назад" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Все объекты:"
+            />
+        <ScrollView
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp">
+            <TextView
+                android:id="@+id/outAll"
+                android:layout_gravity="top"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                />
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

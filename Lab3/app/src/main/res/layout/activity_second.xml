@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/devName"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text=""
+            android:hint="Разработчик"
+            />
+
+        <EditText
+            android:id="@+id/pubName"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text=""
+            android:hint="Издатель"
+            />
+
+        <ScrollView
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="200dp">
+            <TextView
+                android:id="@+id/out"
+                android:layout_gravity="top"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/nextAct"
+            android:layout_gravity="right"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Далее"
+            android:onClick="nextAct"/>
+
+        <Button
+            android:id="@+id/prevAct"
+            android:layout_gravity="left"
+            android:layout_marginTop="-46dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:onClick="prevAct"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
