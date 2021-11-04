@@ -49,7 +49,7 @@ public class ChangeActivity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner = findViewById(R.id.appType);
         spinner.setAdapter(adapter);
-        listView = findViewById(R.id.listView);
+        /*listView = findViewById(R.id.listView);
         try {
             apps = JSONHelper.importFromJSON(this);
 
@@ -57,7 +57,7 @@ public class ChangeActivity extends AppCompatActivity {
                     android.R.layout.simple_list_item_1, apps);
             listView.setAdapter(adapter1);
         } catch (Exception e) {
-        }
+        }*/
         seekBar = findViewById(R.id.seekAppRate);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override

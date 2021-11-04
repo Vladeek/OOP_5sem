@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ExistBase(fname);
         devName = findViewById(R.id.devName);
-        listView = findViewById(R.id.listView);
+        /*listView = findViewById(R.id.listView);
         try {
             apps = JSONHelper.importFromJSON(this);
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        registerForContextMenu(listView);
+        registerForContextMenu(listView);*/
     }
 
     @Override

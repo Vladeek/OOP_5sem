@@ -6,9 +6,16 @@
         <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.39479166666666665" />
         <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_add.xml" value="0.2957427536231884" />
         <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_change.xml" value="0.37864583333333335" />
-        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_info.xml" value="0.37864583333333335" />
-        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/activity_search.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_app_detail.xml" value="0.33" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_app_list.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_application_detail_info.xml" value="0.2200488997555012" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_content.xml" value="0.25" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_item.xml" value="0.33" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_item_list.xml" value="0.33" />
+        <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/layout/fragment_list.xml" value="0.25" />
         <entry key="..\:/study/5sem/OOP/Lab6/app/src/main/res/menu/menu.xml" value="0.37864583333333335" />
       </map>
     </option>

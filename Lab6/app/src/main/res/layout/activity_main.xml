@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.lab6.ApplicationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -16,7 +24,10 @@
         <ListView
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:id="@+id/listView" />
+            android:id="@+id/listView" >
 
-    </LinearLayout>
+
+        </ListView>
+
+    </LinearLayout>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
