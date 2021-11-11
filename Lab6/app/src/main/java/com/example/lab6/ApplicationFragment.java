@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 /**
  * A fragment representing a list of Items.
  */
-public class ApplicationFragment extends ListFragment {
+public class ApplicationFragment extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
