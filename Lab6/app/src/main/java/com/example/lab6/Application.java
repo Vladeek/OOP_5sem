@@ -63,7 +63,7 @@ public class Application implements Serializable {
         return pubName;
     }
 
-    public void setPubName(String pubName) {
+    public void setPubName(String puabName) {
         this.pubName = pubName;
     }
 
